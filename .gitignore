@@ -1,0 +1,63 @@
+__pycache__/
+*.pyc
+.venv/
+results/
+data/retina/
+data/fusion/
+models/
+*.zip
+
+# Python virtual environments
+.venv/
+venv/
+env/
+cogniview_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Datasets
+data/
+**/data/
+
+# Trained models and checkpoints
+models/
+**/checkpoints/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.npy
+*.npz
+
+# Experimental results
+results/
+final_documentation/
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+serviceAccountKey.json
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary review and backup files
+*_review.txt
+*_source_code.txt
+*_backup.py
+*.log
